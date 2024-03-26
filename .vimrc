@@ -127,7 +127,7 @@ let g:ycm_key_invoke_completion = '<C-Space>'
 nnoremap <F11> :YcmForceCompileAndDiagnostics <CR>
 
 "Use OS clipboard
-set clipboard=unnamedplus,autoselect,exclude:cons\\\\|linux
+"set clipboard=unnamedplus,autoselect,exclude:cons\\\\|linux
 
 
 "Buffer exit key mapping
