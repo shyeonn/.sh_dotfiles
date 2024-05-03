@@ -28,6 +28,7 @@ call vundle#begin()
 	Plugin 'rafi/awesome-vim-colorschemes'
 	Plugin 'roxma/vim-tmux-clipboard'
 	Plugin 'tmux-plugins/vim-tmux-focus-events'
+	Plugin 'haya14busa/vim-poweryank'
 	" All of your Plugins must be added before the following line
 	call vundle#end()            " required
 	filetype plugin indent on    " required
@@ -326,3 +327,6 @@ endif
 
 "For Tagbar
 nmap <F8> :TagbarToggle<CR>
+
+"vim-poweryank
+map <Leader>y <Plug>(operator-poweryank-osc52)
