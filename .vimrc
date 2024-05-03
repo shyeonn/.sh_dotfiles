@@ -26,6 +26,8 @@ call vundle#begin()
 	Plugin 'MattesGroeger/vim-bookmarks'
 	Plugin 'preservim/tagbar'
 	Plugin 'rafi/awesome-vim-colorschemes'
+	Plugin 'roxma/vim-tmux-clipboard'
+	Plugin 'tmux-plugins/vim-tmux-focus-events'
 	" All of your Plugins must be added before the following line
 	call vundle#end()            " required
 	filetype plugin indent on    " required
