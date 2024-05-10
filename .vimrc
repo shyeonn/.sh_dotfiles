@@ -330,3 +330,6 @@ nmap <F8> :TagbarToggle<CR>
 
 "vim-poweryank
 map <Leader>y <Plug>(operator-poweryank-osc52)
+
+"Column mode key bindiing
+nnoremap <Leader>v <C-v>
